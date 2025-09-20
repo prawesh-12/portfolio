@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prawesh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/logo.png">
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="navbar">
+            <div id="logo-section">
+                <img src="./assets/logo.png" alt="Logo">
+            </div>
+            <div id="menu-icon">
+                <img src="./assets/menu.png" alt="menu">
+            </div>
+
+            <div id="nav-lists">
+                <ul>
+                    <a href="./index.html">
+                        <li class="li-navlists">About</li>
+                    </a>
+                    <a href="./index.html">
+                        <li class="li-navlists">Projects</li>
+                    </a>
+                    <a href="./index.html">
+                        <li class="li-navlists">Education</li>
+                    </a>
+                    <a href="./index.html">
+                        <li class="li-navlists">Skills</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div id="left-contact-section">
+                <div id="contact-me-button"><a href="./index.html">Contact Me</a></div>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="main-content-left">
+                <span>Hi ! 😀</span>
+                <span>I'm Prawesh Mandal</span>
+                <span>a third year computer engineering student and having interest in system softwares.</span>
+                <br>
+                <div id="contact-me-button-main"><a href="./index.html">Hire Me</a></div>
+            </div>
+            <div id="main-content-right">
+                <img src="./assets/mia-Cat-Image.jpg" alt="">
+            </div>
+        </div>
+        <div id="footer">
+            <p>Made with <span class="heart">♥</span> by Prawesh</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const menuIcon = document.getElementById("menu-icon");
+        const navLists = document.getElementById("nav-lists");
+
+        menuIcon.addEventListener("click", () => {
+            navLists.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
