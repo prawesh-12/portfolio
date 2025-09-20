@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prawesh Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" type="image/png" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/logo.png" />
 </head>
 
 <body>
     <div class="main-container">
         <div id="navbar">
             <div id="logo-section">
-                <img src="./assets/logo.png" alt="Logo">
+                <img src="./assets/logo.png" alt="Logo" />
             </div>
             <div id="menu-icon">
-                <img src="./assets/menu.png" alt="menu">
+                <img src="./assets/menu.png" alt="menu" />
             </div>
 
             <div id="nav-lists">
@@ -39,27 +40,62 @@
             </div>
 
             <div id="left-contact-section">
-                <div id="contact-me-button"><a href="./index.html">Contact Me</a></div>
+                <div id="contact-me-button">
+                    <a href="./index.html">Contact Me</a>
+                </div>
             </div>
         </div>
         <div id="main-content">
-            <div id="main-content-left">
-                <span>Hi ! 😀</span>
-                <span>I'm Prawesh Mandal</span>
-                <span>a third year computer engineering student and having interest in system softwares.</span>
-                <br>
-                <div id="contact-me-button-main"><a href="./index.html">Hire Me</a></div>
+            <div id="starting-main">
+                <div id="main-content-left">
+                    <span>Hi ! 😀</span>
+                    <span>I'm Prawesh Mandal</span>
+                    <span>a third year computer engineering student and having interest in
+                        system softwares.</span>
+
+                    <div id="social-links">
+                        <a href="https://github.com/prawesh-12" target="_blank" rel="noopener noreferrer">
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/github--v1.png"
+                                alt="github--v1" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/prawesh12/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/ios/50/linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a href="https://x.com/its_prawesh_" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="X (Twitter)" />
+                        </a>
+                    </div>
+
+                    <div id="contact-me-button-main">
+                        <a href="./index.html">Hire Me</a>
+                    </div>
+                </div>
+                <div id="main-content-right">
+                    <img src="./assets/mia-Cat-Image.jpg" alt="" />
+                </div>
             </div>
-            <div id="main-content-right">
-                <img src="./assets/mia-Cat-Image.jpg" alt="">
+
+            <div id="featured-project">
+                <h2>Featured Project</h2>
+                <div class="project-card">
+                    <img src="https://res.cloudinary.com/dm4cqs2a3/image/upload/v1758390800/Screenshot_from_2025-09-20_23-20-15_rjbct6.png"
+                        alt="Project Thumbnail" />
+                    <div class="project-info">
+                        <h3>Personal Blog</h3>
+                        <p>
+                            A blog that shares my thoughts on technology, programming, and life experiences.
+                        </p>
+                        <a href="https://prawesh-12.github.io/blog-website/" target="_blank" class="project-link">Try it Out</a>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div id="footer">
             <p>Made with <span class="heart">♥</span> by Prawesh</p>
         </div>
     </div>
 
-    <!-- JavaScript -->
     <script>
         const menuIcon = document.getElementById("menu-icon");
         const navLists = document.getElementById("nav-lists");
