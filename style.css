@@ -157,12 +157,12 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  padding: 5rem 20rem;
+  padding: 5rem 40rem;
   align-items: center;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 #main-content-left {
@@ -268,11 +268,17 @@ a {
   padding: 8rem 5rem;
   text-align: center;
   color: #fff;
+  height: 90vh;
 }
 
 #featured-project h2 {
   font-size: 4.5rem;
   margin-bottom: 5rem;
+}
+
+#featured-project h4 {
+  font-size: 2.5rem;
+  margin-top: 20rem;
 }
 
 /* Project Card */
@@ -347,6 +353,7 @@ a {
   #featured-project {
     padding: 6rem 3rem;
   }
+
   .project-card {
     gap: 3rem;
   }
@@ -386,6 +393,11 @@ a {
   }
   #featured-project h2 {
     font-size: 3.5rem;
+  }
+
+  #featured-project h4 {
+    font-size: 2rem;
+    margin-top: 10rem;
   }
 
   .project-info h3 {
